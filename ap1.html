@@ -121,21 +121,31 @@
     
     
     <section id="footer">
-        <div class="form-container">
-            <h1>Contact me</h1>
+        <div>
+            
+            
+            <form action="https://formsubmit.co/b83ce5f2120c2b1d915dea8057fe1d26" method="POST" class="form-container">
+                <input type="text" name="_honey" style="display:none"> 
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://luka658.github.io/webdemo1/success.html">
+                
+                <h1>Contact me</h1>
 
-            <select name="subject" id="input-subject" class="input" required>
-                <option value="" selected disabled hidden>Subject of your inquery</option>
-                <option value="1">AP1</option>
-                <option value="1">AP2</option>
-                <option value="1">General</option>
-            </select>
+                <select name="subject" id="input-subject" class="input" required>
+                    <option value="" selected disabled hidden>Subject of your inquery</option>
+                    <option value="ap1">AP1</option>
+                    <option value="ap2">AP2</option>
+                    <option value="general">General</option>
+                </select>
 
-            <input type="text" name="person-name" id="input-name" class="input" placeholder="Your name" required>
+                <input type="text" name="person&nbspname" id="input-name" class="input" placeholder="Your name" required>
 
-            <input type="email" name="person-email" id="input-email" class="input" placeholder="Your email" required>
+                <input type="email" name="person&nbspemail" id="input-email" class="input" placeholder="Your email" required>
 
-            <textarea name="inquery" id="input-textarea" rows="6" class="input" placeholder="Your inquery" required></textarea>
+                <textarea name="message" id="input-textarea" rows="6" class="input" placeholder="Your inquery" required></textarea>
+
+                <button type="submit" class="input-btn">Submit</button>
+            </form>
         </div>
 
         <div class="footer-contact-info">
