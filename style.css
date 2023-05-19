@@ -136,7 +136,7 @@ p {
     /* border-bottom: var(--color2) 4px solid; */
 }
 
-a:visited, a:hover, a:active {
+a:link, a:visited, a:hover, a:active {
     color: inherit;
 }
 
