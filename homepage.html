@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Like Apartments Zagreb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="header-container">
+            <div>
+                <p class="header1">Like Zagreb</p>
+                <p class="header2"> Downtown Apartments</p>
+            </div>
+            <a href="#footer">
+                <span class="material-symbols-outlined">mail</span>
+            </a>
+        </div>
+    </nav>
+
+
+    <div class="ograda">
+        <section class="block">
+            <div class="flex-container">
+                <div class="oblak">
+
+                    <div class="shadow-box">
+
+                        <div class="picture">
+                            <img src="ap1-slika-skinuta.jpeg" alt="no picture">
+                        </div>
+                        <div class="description">
+                            <a class="app-link" href="ap1.html">AP1, three guests</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="oblak">
+                    <div class="shadow-box">
+
+                        <div class="picture">
+                            <img src="ap-slika3.webp" alt="no picture">
+                        </div>
+                        <div class="description">
+                            <a class="app-link" href="ap2.html">AP2, four guests</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="block">
+            <div class="info">
+                <div class="info-text">
+                    <h1>About</h1>
+                    <p class="text">Situated in Zagreb, 600 m from Cvjetni Square, 800 m from Croatian Museum of Naive Art and less than 1 km from Archaeological Museum Zagreb, Like Zagreb - Downtown Apartments features accommodation with a patio and free WiFi. The property was built in 19th century and has accommodation with a balcony.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="block"> <!-- maknuti class="block" zbog obojene pozadine-->
+            <div class="location">
+                <div class="location-text">
+                    <h1>Location</h1>
+                    <p class="text">Frankopanska ulica 11, Zagreb</p>
+                </div>
+                <div class="google-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.963358383676!2d15.967497415775467!3d45.81199221818955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6e33f1989d7%3A0x2c61ca26aca8a692!2sFrankopanska%20ul.%2011%2C%2010000%2C%20Zagreb!5e0!3m2!1sen!2shr!4v1667589911188!5m2!1sen!2shr"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <!-- width="600" height="450"  -->
+                </div>
+            </div>
+        </section>
+
+        <section class="block">
+            <div class="info">
+                <div class="info-text">
+                    <h1>Check in/check out info</h1>
+                    <p class="text">check in: 9.00h</p>
+                    <p class="text">check out: 14.00h</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="footer">
+        <div>
+            
+            
+            <form action="https://formsubmit.co/likezagreb@email.com" method="POST" class="form-container">
+                <h1>Contact me</h1>
+
+                <select name="subject" id="input-subject" class="input" required>
+                    <option value="" selected disabled hidden>Subject of your inquery</option>
+                    <option value="1">AP1</option>
+                    <option value="1">AP2</option>
+                    <option value="1">General</option>
+                </select>
+
+                <input type="text" name="person-name" id="input-name" class="input" placeholder="Your name" required>
+
+                <input type="email" name="person-email" id="input-email" class="input" placeholder="Your email" required>
+
+                <textarea name="message" id="input-textarea" rows="6" class="input" placeholder="Your inquery" required></textarea>
+
+                <button type="submit" class="input-btn">Submit</button>
+            </form>
+        </div>
+
+        <div class="footer-contact-info">
+            <div class="footer-contact">
+                <p>Address</p>
+                <p>Frankopanska ulica 11, 1000, Zagreb</p>
+            </div>
+            <div class="footer-contact">
+                <p>Email</p>
+                <p>like@gmail.com</p>
+            </div>
+            <div class="footer-contact">
+                <p>Telephone</p>
+                <p>+385954785145</p>
+            </div>
+            <div class="footer-contact">
+                <p>For business inquerys</p>
+                <p>+385954785145</p>
+            </div>
+        </div>
+        <p class="disclamer">Use of any content from this website, including images, without permission is forbidden.</p>
+    </section>
+    
+</body>
+
+</html>
